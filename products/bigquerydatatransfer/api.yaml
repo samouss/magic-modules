@@ -120,7 +120,7 @@ objects:
               - scheduleOptions.0.disableAutoScheduling
               - scheduleOptions.0.startTime
               - scheduleOptions.0.endTime
-          - !ruby/object:Api::Type::String
+          - !ruby/object:Api::Type::Time
             name: 'startTime'
             required: false
             description: |
@@ -132,7 +132,7 @@ objects:
               - scheduleOptions.0.disableAutoScheduling
               - scheduleOptions.0.startTime
               - scheduleOptions.0.endTime
-          - !ruby/object:Api::Type::String
+          - !ruby/object:Api::Type::Time
             name: 'endTime'
             required: false
             description: |
